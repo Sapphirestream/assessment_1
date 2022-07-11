@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+const gitDefinition = "a program that saves a copy of all the versions of the code semi-automatically. Includes the ability to see previous versions as well as different branches. Compatible with github, a website that lets you then share said code."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+const gitHubDefinition = "a website that works with git - uploads git files onto the cloud for storae and sharing"
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+const gitInitDefinition = "git Init starts the git program, and tells it to start taking git commands. Must be done before any other git commands."
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+const gitCloneDefinition = "will create a copy of the current git file in a new location"
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,7 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+const gitStatusDefinition = "will show the current condition of the git files - including anything that has been changed since the git file was last commited"
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +52,9 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+const gitAddDefinition = "tells the git to pay attention to that particular file. any file added will be commited when you tell it to commit. only needs to be done to a file once"
+
+const gitAddCode = "get add ."
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -63,8 +65,9 @@
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
+const gitCommitDefinition = "Makes a checkpoint for the code, saving all current progress on files added to the git file. Saves the code into the git file. Made with a message to let you know what is being saved"
 
+const gitCommitCode = 'git commit -m "initial commit"'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -72,4 +75,4 @@
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+const gitPushDefinition = "git push pushes the git file to git hub, uploading it onto the website"
